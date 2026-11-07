@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "boost-container",
+    "boost-geometry",
+    "boost-signals2",
+    "sfml"
+  ]
+}
