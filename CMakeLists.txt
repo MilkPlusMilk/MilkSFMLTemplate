@@ -17,5 +17,5 @@ find_package(Boost 1.91 COMPONENTS geometry signals2 container REQUIRED)
 target_include_directories(App PRIVATE ${CMAKE_SOURCE_DIR}/include)
 target_link_libraries(App PRIVATE 
 	SFML::Graphics SFML::Audio SFML::Network
-	Boost:geometry Boost::signals2 Boost::container
+	Boost::geometry Boost::signals2 Boost::container
 )
